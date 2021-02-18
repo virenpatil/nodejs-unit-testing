@@ -34,5 +34,8 @@ describe('file to be tested',() =>{
             assert.deepEqual({name: 'joe'},{name:'joe'});
         })
         it('this is pendding test',)
+    });
+    context('another function',()=>{
+        it('should do something');
     })
 })
